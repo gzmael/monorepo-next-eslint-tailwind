@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-nextjs": "*",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "latest",
+    "prettier-plugin-tailwindcss": "^0.2.6",
+    "turbo": "latest"
+  },
+  "packageManager": "npm@8.19.4"
+}
